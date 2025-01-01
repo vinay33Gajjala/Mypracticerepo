@@ -1,0 +1,33 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling for paragraphs */
+p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Add hover effect for paragraphs */
+p:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+/* Specific styling for the first paragraph */
+p:first-of-type {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Styling for the last paragraph */
+p:last-of-type {
+    font-style: italic;
+    color: #ff5722;
+}
